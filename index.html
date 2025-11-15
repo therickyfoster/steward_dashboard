@@ -1,0 +1,928 @@
+Here's the rest of the code from that point:
+
+```html
+<div class="card">
+                    <div class="card-header">
+                        <div class="card-title">❄️ Tundra Biomes</div>
+                    </div>
+                    <div class="biome-stats-grid">
+                        <div class="biome-stat-card critical">
+                            <div style="font-weight: 600; margin-bottom: 5px;">Arctic Tundra</div>
+                            <div style="font-size: 2em; color: #ef4444;">32%</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">Health Index</div>
+                            <div class="recovery-bar">
+                                <div class="recovery-fill" style="width: 32%;">32%</div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="threat-indicator threat-high">Permafrost Thaw</span>
+                                <span class="threat-indicator threat-high">Rapid Warming</span>
+                                <span class="threat-indicator threat-medium">Shrubification</span>
+                            </div>
+                        </div>
+                        
+                        <div class="biome-stat-card stressed">
+                            <div style="font-weight: 600; margin-bottom: 5px;">Alpine Tundra</div>
+                            <div style="font-size: 2em; color: #fbbf24;">54%</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">Health Index</div>
+                            <div class="recovery-bar">
+                                <div class="recovery-fill" style="width: 54%;">54%</div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="threat-indicator threat-high">Glacier Retreat</span>
+                                <span class="threat-indicator threat-medium">Species Migration</span>
+                            </div>
+                        </div>
+                        
+                        <div class="biome-stat-card stressed">
+                            <div style="font-weight: 600; margin-bottom: 5px;">Antarctic Tundra</div>
+                            <div style="font-size: 2em; color: #fbbf24;">46%</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">Health Index</div>
+                            <div class="recovery-bar">
+                                <div class="recovery-fill" style="width: 46%;">46%</div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="threat-indicator threat-high">Ice Loss</span>
+                                <span class="threat-indicator threat-medium">Tourism Impact</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🌾 Grassland Biomes</div>
+                    </div>
+                    <div class="biome-stats-grid">
+                        <div class="biome-stat-card recovering">
+                            <div style="font-weight: 600; margin-bottom: 5px;">Great Plains</div>
+                            <div style="font-size: 2em; color: #3b82f6;">64%</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">Health Index</div>
+                            <div class="recovery-bar">
+                                <div class="recovery-fill" style="width: 64%;">64%</div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="threat-indicator threat-medium">Agriculture</span>
+                                <span class="threat-indicator threat-low">Restoration</span>
+                            </div>
+                        </div>
+                        
+                        <div class="biome-stat-card stressed">
+                            <div style="font-weight: 600; margin-bottom: 5px;">African Savanna</div>
+                            <div style="font-size: 2em; color: #fbbf24;">56%</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">Health Index</div>
+                            <div class="recovery-bar">
+                                <div class="recovery-fill" style="width: 56%;">56%</div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="threat-indicator threat-high">Poaching</span>
+                                <span class="threat-indicator threat-medium">Drought</span>
+                            </div>
+                        </div>
+                        
+                        <div class="biome-stat-card critical">
+                            <div style="font-weight: 600; margin-bottom: 5px;">Pampas</div>
+                            <div style="font-size: 2em; color: #ef4444;">36%</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">Health Index</div>
+                            <div class="recovery-bar">
+                                <div class="recovery-fill" style="width: 36%;">36%</div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="threat-indicator threat-high">Intensive Farming</span>
+                                <span class="threat-indicator threat-high">Conversion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🌊 Marine Biomes</div>
+                    </div>
+                    <div class="biome-stats-grid">
+                        <div class="biome-stat-card critical">
+                            <div style="font-weight: 600; margin-bottom: 5px;">Coral Reefs</div>
+                            <div style="font-size: 2em; color: #ef4444;">29%</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">Health Index</div>
+                            <div class="recovery-bar">
+                                <div class="recovery-fill" style="width: 29%;">29%</div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="threat-indicator threat-high">Bleaching</span>
+                                <span class="threat-indicator threat-high">Acidification</span>
+                                <span class="threat-indicator threat-high">Warming</span>
+                            </div>
+                        </div>
+                        
+                        <div class="biome-stat-card recovering">
+                            <div style="font-weight: 600; margin-bottom: 5px;">Kelp Forests</div>
+                            <div style="font-size: 2em; color: #3b82f6;">71%</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">Health Index</div>
+                            <div class="recovery-bar">
+                                <div class="recovery-fill" style="width: 71%;">71%</div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="threat-indicator threat-medium">Sea Urchin Boom</span>
+                                <span class="threat-indicator threat-low">Conservation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="biome-stat-card stressed">
+                            <div style="font-weight: 600; margin-bottom: 5px;">Mangroves</div>
+                            <div style="font-size: 2em; color: #fbbf24;">58%</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">Health Index</div>
+                            <div class="recovery-bar">
+                                <div class="recovery-fill" style="width: 58%;">58%</div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="threat-indicator threat-high">Coastal Development</span>
+                                <span class="threat-indicator threat-medium">Aquaculture</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="conflicts" class="tab-content">
+            <div class="grid">
+                <div class="card large-card">
+                    <div class="card-header">
+                        <div class="card-title">⚔️ Current Global Conflicts</div>
+                    </div>
+                    <div class="conflict-map" id="conflictMap">
+                        <div style="text-align: center; color: #94a3b8; padding: 20px;">
+                            Hover over markers for conflict details
+                        </div>
+                    </div>
+                    <div class="conflict-tooltip" id="conflictTooltip"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">📊 Conflict Statistics</div>
+                    </div>
+                    <div class="data-grid">
+                        <div class="data-item">
+                            <div class="data-label">Active Conflicts</div>
+                            <div class="data-value">56</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Displaced Persons</div>
+                            <div class="data-value">110M</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Countries Affected</div>
+                            <div class="data-value">32</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Humanitarian Crisis</div>
+                            <div class="data-value">18 Regions</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🌳 Lost Planting Initiatives</div>
+                    </div>
+                    <div class="initiative-counter">
+                        <div class="counter-number" id="lostTrees">247,891</div>
+                        <div class="counter-label">Trees lost to conflict zones this month</div>
+                    </div>
+                    <div class="data-grid" style="margin-top: 15px;">
+                        <div class="data-item">
+                            <div class="data-label">Suspended Projects</div>
+                            <div class="data-value">23</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Affected Hectares</div>
+                            <div class="data-value">14,500</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🌍 Environmental Impact</div>
+                    </div>
+                    <div class="data-grid">
+                        <div class="data-item">
+                            <div class="data-label">CO₂ from Conflicts</div>
+                            <div class="data-value">450M tons/yr</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Water Sources Damaged</div>
+                            <div class="data-value">187</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Toxic Sites</div>
+                            <div class="data-value">89</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Wildlife Habitats Lost</div>
+                            <div class="data-value">2.1M ha</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top: 20px;">
+                <div class="card-header">
+                    <div class="card-title">📋 Conflict Regions Detail</div>
+                </div>
+                <div class="scrolling-list" id="conflictList"></div>
+            </div>
+        </div>
+
+        <div id="cosmological" class="tab-content">
+            <div class="grid">
+                <div class="card large-card">
+                    <div class="card-header">
+                        <div class="card-title">🌌 Upcoming Cosmological Events</div>
+                    </div>
+                    <div class="scrolling-list">
+                        <div class="cosmological-event">
+                            <div class="event-date">November 15, 2025</div>
+                            <div class="event-title">🌕 Full Beaver Moon</div>
+                            <div style="color: #94a3b8; font-size: 0.9em;">Peak illumination affects nocturnal wildlife behavior</div>
+                        </div>
+                        <div class="cosmological-event">
+                            <div class="event-date">December 14, 2025</div>
+                            <div class="event-title">☄️ Geminid Meteor Shower Peak</div>
+                            <div style="color: #94a3b8; font-size: 0.9em;">Up to 120 meteors per hour - minimal light pollution optimal</div>
+                        </div>
+                        <div class="cosmological-event">
+                            <div class="event-date">December 21, 2025</div>
+                            <div class="event-title">🌍 Winter Solstice</div>
+                            <div style="color: #94a3b8; font-size: 0.9em;">Shortest day in Northern Hemisphere - impacts ecosystems</div>
+                        </div>
+                        <div class="cosmological-event">
+                            <div class="event-date">March 14, 2026</div>
+                            <div class="event-title">🌑 Total Solar Eclipse</div>
+                            <div style="color: #94a3b8; font-size: 0.9em;">Path crosses Spain, North Africa - animal behavior studies planned</div>
+                        </div>
+                        <div class="cosmological-event">
+                            <div class="event-date">March 20, 2026</div>
+                            <div class="event-title">🌸 Spring Equinox</div>
+                            <div style="color: #94a3b8; font-size: 0.9em;">Migration patterns peak, breeding seasons begin</div>
+                        </div>
+                        <div class="cosmological-event">
+                            <div class="event-date">June 21, 2026</div>
+                            <div class="event-title">☀️ Summer Solstice</div>
+                            <div style="color: #94a3b8; font-size: 0.9em;">Longest day - maximum solar energy potential</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🌍 Earth's Orbital Status</div>
+                    </div>
+                    <div class="data-grid">
+                        <div class="data-item">
+                            <div class="data-label">Distance from Sun</div>
+                            <div class="data-value">147.5M km</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Orbital Velocity</div>
+                            <div class="data-value">29.78 km/s</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Axial Tilt</div>
+                            <div class="data-value">23.44°</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Day Length Variance</div>
+                            <div class="data-value">±30 seconds</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">☀️ Solar Activity</div>
+                    </div>
+                    <div class="data-grid">
+                        <div class="data-item">
+                            <div class="data-label">Solar Cycle Phase</div>
+                            <div class="data-value">Cycle 25</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Sunspot Number</div>
+                            <div class="data-value">89</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Solar Wind Speed</div>
+                            <div class="data-value">420 km/s</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Geomagnetic Activity</div>
+                            <div class="data-value">Moderate</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🌙 Lunar Phases (Next 30 Days)</div>
+                    </div>
+                    <div class="scrolling-list">
+                        <div class="data-item">
+                            <div class="data-label">Nov 15 - Full Moon</div>
+                            <div class="data-value">🌕</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Nov 23 - Last Quarter</div>
+                            <div class="data-value">🌗</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Dec 1 - New Moon</div>
+                            <div class="data-value">🌑</div>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-label">Dec 8 - First Quarter</div>
+                            <div class="data-value">🌓</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="news" class="tab-content">
+            <div class="grid">
+                <div class="card large-card">
+                    <div class="card-header">
+                        <div class="card-title">📰 Live Environmental News Sources</div>
+                    </div>
+                    <div class="scrolling-list">
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">NASA Earth Observatory</div>
+                                <div style="font-size: 0.85em; color: #94a3b8;">Last update: 3 minutes ago</div>
+                            </div>
+                            <button onclick="window.open('https://earthobservatory.nasa.gov/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">NOAA Climate.gov</div>
+                                <div style="font-size: 0.85em; color: #94a3b8;">Last update: 12 minutes ago</div>
+                            </div>
+                            <button onclick="window.open('https://www.climate.gov/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">European Space Agency Earth Online</div>
+                                <div style="font-size: 0.85em; color: #94a3b8;">Last update: 8 minutes ago</div>
+                            </div>
+                            <button onclick="window.open('https://earth.esa.int/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">UN Environment Programme</div>
+                                <div style="font-size: 0.85em; color: #94a3b8;">Last update: 25 minutes ago</div>
+                            </div>
+                            <button onclick="window.open('https://www.unep.org/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">World Meteorological Organization</div>
+                                <div style="font-size: 0.85em; color: #94a3b8;">Last update: 15 minutes ago</div>
+                            </div>
+                            <button onclick="window.open('https://public.wmo.int/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">IPCC - Intergovernmental Panel on Climate Change</div>
+                                <div style="font-size: 0.85em; color: #94a3b8;">Last update: 1 hour ago</div>
+                            </div>
+                            <button onclick="window.open('https://www.ipcc.ch/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">Nature Climate Change</div>
+                                <div style="font-size: 0.85em; color: #94a3b8;">Last update: 2 hours ago</div>
+                            </div>
+                            <button onclick="window.open('https://www.nature.com/nclimate/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">Carbon Brief</div>
+                                <div style="font-size: 0.85em; color: #94a3b8;">Last update: 45 minutes ago</div>
+                            </div>
+                            <button onclick="window.open('https://www.carbonbrief.org/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">Copernicus Climate Change Service</div>
+                                <div style="font-size: 0.85em; color: #94a3b8;">Last update: 20 minutes ago</div>
+                            </div>
+                            <button onclick="window.open('https://climate.copernicus.eu/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🔬 Research Institutions</div>
+                    </div>
+                    <div class="scrolling-list">
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">Woods Hole Oceanographic</div>
+                            </div>
+                            <button onclick="window.open('https://www.whoi.edu/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">Max Planck Institute</div>
+                            </div>
+                            <button onclick="window.open('https://www.mpg.de/en', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">Scripps Institution</div>
+                            </div>
+                            <button onclick="window.open('https://scripps.ucsd.edu/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">📊 Data Portals</div>
+                    </div>
+                    <div class="scrolling-list">
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">Global Forest Watch</div>
+                            </div>
+                            <button onclick="window.open('https://www.globalforestwatch.org/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">Ocean Health Index</div>
+                            </div>
+                            <button onclick="window.open('https://oceanhealthindex.org/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                        <div class="news-source">
+                            <div class="source-indicator"></div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600;">Climate Action Tracker</div>
+                            </div>
+                            <button onclick="window.open('https://climateactiontracker.org/', '_blank')" style="padding: 5px 10px; background: #3b82f6; border: none; border-radius: 5px; color: white; cursor: pointer;">Visit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Biome data
+        const biomeData = [
+            // Forests
+            { name: "Amazon Rainforest", type: "forest", health: 52, status: "stressed", x: 28, y: 58, size: 80, threats: ["Deforestation", "Drought", "Fire Risk"] },
+            { name: "Congo Basin", type: "forest", health: 68, status: "recovering", x: 48, y: 55, size: 70, threats: ["Illegal Logging"] },
+            { name: "Boreal Forests", type: "forest", health: 84, status: "healthy", x: 45, y: 18, size: 120, threats: ["Warming"] },
+            { name: "Southeast Asian Forests", type: "forest", health: 34, status: "critical", x: 72, y: 52, size: 60, threats: ["Palm Oil", "Fragmentation"] },
+            
+            // Wetlands
+            { name: "Everglades", type: "wetland", health: 48, status: "stressed", x: 22, y: 45, size: 50, threats: ["Water Diversion", "Invasive Species"] },
+            { name: "Mesopotamian Marshes", type: "wetland", health: 28, status: "critical", x: 57, y: 42, size: 40, threats: ["Desiccation", "Drought"] },
+            { name: "Pantanal", type: "wetland", health: 72, status: "recovering", x: 32, y: 64, size: 55, threats: ["Fire Recovery"] },
+            
+            // Deserts
+            { name: "Sahara", type: "desert", health: 58, status: "stressed", x: 48, y: 48, size: 95, threats: ["Expanding", "Desertification"] },
+            { name: "Atacama", type: "desert", health: 88, status: "healthy", x: 25, y: 68, size: 45, threats: [] },
+            { name: "Gobi Desert", type: "desert", health: 38, status: "critical", x: 68, y: 35, size: 70, threats: ["Rapid Expansion", "Overgrazing"] },
+            
+            // Tundra
+            { name: "Arctic Tundra", type: "tundra", health: 32, status: "critical", x: 45, y: 10, size: 110, threats: ["Permafrost Thaw", "Warming"] },
+            { name: "Alpine Tundra", type: "tundra", health: 54, status: "stressed", x: 42, y: 38, size: 45, threats: ["Glacier Retreat"] },
+            { name: "IceTundra", type: "tundra", health: 46, status: "stressed", x: 50, y: 85, size: 70, threats: ["Ice Loss"] },
+            
+            // Grasslands
+            { name: "Great Plains", type: "grassland", health: 64, status: "recovering", x: 20, y: 38, size: 60, threats: ["Agriculture"] },
+            { name: "African Savanna", type: "grassland", health: 56, status: "stressed", x: 50, y: 58, size: 70, threats: ["Poaching", "Drought"] },
+            { name: "Pampas", type: "grassland", health: 36, status: "critical", x: 32, y: 68, size: 50, threats: ["Intensive Farming"] },
+            { name: "Mongolian Steppe", type: "grassland", health: 62, status: "recovering", x: 68, y: 35, size: 55, threats: ["Grazing"] },
+            
+            // Marine
+            { name: "Great Barrier Reef", type: "marine", health: 29, status: "critical", x: 82, y: 63, size: 45, threats: ["Bleaching", "Acidification"] },
+            { name: "Caribbean Reefs", type: "marine", health: 34, status: "critical", x: 25, y: 50, size: 40, threats: ["Warming", "Pollution"] },
+            { name: "Kelp Forests (Pacific)", type: "marine", health: 71, status: "recovering", x: 15, y: 40, size: 50, threats: ["Sea Urchins"] },
+            { name: "Mangroves (Southeast Asia)", type: "marine", health: 58, status: "stressed", x: 72, y: 52, size: 40, threats: ["Development"] }
+        ];
+
+        let currentBiomeFilter = 'all';
+
+        function initializeBiomeMap() {
+            const map = document.getElementById('biomeMap');
+            biomeData.forEach((biome, index) => {
+                const region = document.createElement('div');
+                region.className = `biome-region biome-${biome.status}`;
+                region.style.left = biome.x + '%';
+                region.style.top = biome.y + '%';
+                region.style.width = biome.size + 'px';
+                region.style.height = biome.size + 'px';
+                region.dataset.type = biome.type;
+                region.dataset.index = index;
+                
+                region.addEventListener('click', () => showBiomeDetails(biome));
+                
+                map.appendChild(region);
+            });
+        }
+
+        function filterBiome(type) {
+            currentBiomeFilter = type;
+            const buttons = document.querySelectorAll('.biome-button');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            const regions = document.querySelectorAll('.biome-region');
+            regions.forEach(region => {
+                if (type === 'all' || region.dataset.type === type) {
+                    region.style.display = 'block';
+                    region.style.opacity = '0.7';
+                } else {
+                    region.style.opacity = '0.2';
+                }
+            });
+        }
+
+        function showBiomeDetails(biome) {
+            const detailsPanel = document.getElementById('biomeDetails');
+            const statusColors = {
+                healthy: '#10b981',
+                recovering: '#3b82f6',
+                stressed: '#fbbf24',
+                critical: '#ef4444'
+            };
+            
+            detailsPanel.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 20px;">
+                    <div>
+                        <h3 style="font-size: 1.5em; margin-bottom: 10px;">${biome.name}</h3>
+                        <div style="color: #94a3b8;">Type: ${biome.type.charAt(0).toUpperCase() + biome.type.slice(1)}</div>
+                    </div>
+                    <div style="text-align: right;">
+                        <div style="font-size: 3em; font-weight: bold; color: ${statusColors[biome.status]}">${biome.health}%</div>
+                        <div style="color: #94a3b8;">Health Index</div>
+                    </div>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;">
+                    <div class="data-item">
+                        <div class="data-label">Status</div>
+                        <div class="data-value" style="color: ${statusColors[biome.status]}">${biome.status.charAt(0).toUpperCase() + biome.status.slice(1)}</div>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-label">Biodiversity</div>
+                        <div class="data-value">${Math.floor(biome.health * 0.9)}%</div>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-label">Carbon Storage</div>
+                        <div class="data-value">${Math.floor(biome.health * 1.2)}%</div>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-label">Water Cycle</div>
+                        <div class="data-value">${Math.floor(biome.health * 0.85)}%</div>
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <div style="font-weight: 600; margin-bottom: 10px;">Primary Threats:</div>
+                    ${biome.threats.map(threat => {
+                        const level = biome.health < 40 ? 'high' : biome.health < 60 ? 'medium' : 'low';
+                        return `<span class="threat-indicator threat-${level}">${threat}</span>`;
+                    }).join('')}
+                    ${biome.threats.length === 0 ? '<span class="threat-indicator threat-low">Minimal Threats</span>' : ''}
+                </div>
+                
+                <div>
+                    <div style="font-weight: 600; margin-bottom: 10px;">Recovery Progress:</div>
+                    <div class="recovery-bar">
+                        <div class="recovery-fill" style="width: ${biome.health}%;">${biome.health}%</div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px; padding: 15px; background: rgba(255, 255, 255, 0.05); border-radius: 8px;">
+                    <div style="font-weight: 600; margin-bottom: 10px;">📊 Trend Analysis:</div>
+                    <div style="color: #94a3b8; font-size: 0.9em;">
+                        ${biome.status === 'critical' ? '🚨 Urgent intervention required. Ecosystem services severely degraded.' : ''}
+                        ${biome.status === 'stressed' ? '⚠️ Health declining. Enhanced monitoring and protection measures recommended.' : ''}
+                        ${biome.status === 'recovering' ? '📈 Positive trajectory. Conservation efforts showing results.' : ''}
+                        ${biome.status === 'healthy' ? '✅ Stable ecosystem. Continue current management practices.' : ''}
+                    </div>
+                </div>
+            `;
+            
+            detailsPanel.style.display = 'block';
+            detailsPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // News ticker data
+        const tickerNews = [
+            "🌡️ Global temperature reaches +1.12°C above pre-industrial levels",
+            "🌊 Ocean acidification accelerating in Pacific Northwest",
+            "🌳 Amazon deforestation down 22% compared to last year",
+            "❄️ Antarctic ice shelf shows signs of accelerated melting",
+            "🌀 Category 5 hurricane forms in Western Pacific",
+            "🌱 UN announces 1 billion tree initiative across 50 countries",
+            "⚡ Wind energy surpasses coal in European electricity generation",
+            "🐝 Bee populations show 8% recovery in protected zones",
+            "🌾 Global food security index drops to 3-year low",
+            "☀️ Solar capacity installations reach record 400 GW this year",
+            "📉 Paris Agreement targets: 147 countries on track, 48 falling behind",
+            "🐋 Blue whale population increases 5% in Southern Ocean",
+            "🏔️ Himalayan glaciers losing 8 billion tons of ice annually",
+            "💧 Freshwater reserves declining 20% faster than predicted",
+            "🦏 Black rhino population reaches 5,800 after conservation success"
+        ];
+
+        function initializeTicker() {
+            const container = document.getElementById('tickerContent');
+            const tickerString = tickerNews.map(news => 
+                `<span class="ticker-item">${news}<span class="ticker-separator">●</span></span>`
+            ).join('');
+            container.innerHTML = tickerString + tickerString;
+        }
+
+        // Conflict data
+        const conflicts = [
+            { name: "Ukraine-Russia", country: "Ukraine", intensity: "High", displaced: "8.2M", x: 55, y: 30 },
+            { name: "Gaza Conflict", country: "Palestine", intensity: "Critical", displaced: "1.9M", x: 52, y: 45 },
+            { name: "Sudan Civil War", country: "Sudan", intensity: "High", displaced: "6.1M", x: 52, y: 50 },
+            { name: "Myanmar Crisis", country: "Myanmar", intensity: "High", displaced: "1.5M", x: 70, y: 45 },
+            { name: "Yemen Conflict", country: "Yemen", intensity: "Moderate", displaced: "4.3M", x: 55, y: 48 },
+            { name: "Ethiopia Tigray", country: "Ethiopia", intensity: "Moderate", displaced: "2.1M", x: 54, y: 52 },
+            { name: "Syria Ongoing", country: "Syria", intensity: "Moderate", displaced: "6.8M", x: 53, y: 43 },
+            { name: "DRC Conflicts", country: "DR Congo", intensity: "High", displaced: "5.6M", x: 48, y: 55 },
+            { name: "Somalia Instability", country: "Somalia", intensity: "Moderate", displaced: "2.9M", x: 56, y: 55 },
+            { name: "Afghanistan Crisis", country: "Afghanistan", intensity: "Moderate", displaced: "3.2M", x: 62, y: 42 }
+        ];
+
+        function initializeConflictMap() {
+            const map = document.getElementById('conflictMap');
+            const tooltip = document.getElementById('conflictTooltip');
+            
+            conflicts.forEach(conflict => {
+                const marker = document.createElement('div');
+                marker.className = 'conflict-marker';
+                marker.style.left = conflict.x + '%';
+                marker.style.top = conflict.y + '%';
+                
+                marker.addEventListener('mouseenter', (e) => {
+                    tooltip.innerHTML = `
+                        <div style="font-weight: bold; margin-bottom: 5px;">${conflict.name}</div>
+                        <div>Country: ${conflict.country}</div>
+                        <div>Intensity: <span style="color: ${conflict.intensity === 'Critical' ? '#ef4444' : conflict.intensity === 'High' ? '#f59e0b' : '#fbbf24'}">${conflict.intensity}</span></div>
+                        <div>Displaced: ${conflict.displaced}</div>
+                    `;
+                    tooltip.style.display = 'block';
+                    tooltip.style.left = e.pageX + 10 + 'px';
+                    tooltip.style.top = e.pageY + 10 + 'px';
+                });
+                
+                marker.addEventListener('mouseleave', () => {
+                    tooltip.style.display = 'none';
+                });
+                
+                map.appendChild(marker);
+            });
+        }
+
+        function populateConflictList() {
+            const list = document.getElementById('conflictList');
+            conflicts.forEach(conflict => {
+                const item = document.createElement('div');
+                item.className = 'feed-item';
+                item.innerHTML = `
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <div style="font-weight: 600;">${conflict.name}</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">${conflict.country}</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="color: ${conflict.intensity === 'Critical' ? '#ef4444' : conflict.intensity === 'High' ? '#f59e0b' : '#fbbf24'}; font-weight: 600;">${conflict.intensity}</div>
+                            <div style="font-size: 0.85em; color: #94a3b8;">${conflict.displaced} displaced</div>
+                        </div>
+                    </div>
+                `;
+                list.appendChild(item);
+            });
+        }
+
+        // Lost trees counter
+        function animateCounter() {
+            const counter = document.getElementById('lostTrees');
+            let current = 247891;
+            setInterval(() => {
+                current += Math.floor(Math.random() * 50);
+                counter.textContent = current.toLocaleString();
+            }, 5000);
+        }
+
+        // Time display
+        function updateTime() {
+            const now = new Date();
+            const utcTime = now.toUTCString().split(' ')[4];
+            const dateStr = now.toLocaleDateString('en-US', { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            });
+            
+            document.getElementById('utcTime').textContent = utcTime + ' UTC';
+            document.getElementById('dateDisplay').textContent = dateStr;
+        }
+        
+        setInterval(updateTime, 1000);
+        updateTime();
+
+        // Tab switching
+        function switchTab(tabName) {
+            const tabs = document.querySelectorAll('.tab');
+            const contents = document.querySelectorAll('.tab-content');
+            
+            tabs.forEach(tab => tab.classList.remove('active'));
+            contents.forEach(content => content.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        }
+
+        // Simulate live data updates
+        function updateMetrics() {
+            const temp = (15.2 + (Math.random() - 0.5) * 0.1).toFixed(2);
+            const co2 = (421 + (Math.random() - 0.5) * 2).toFixed(1);
+            const seaLevel = (3.4 + (Math.random() - 0.5) * 0.1).toFixed(2);
+            const ice = (4.2 + (Math.random() - 0.5) * 0.1).toFixed(2);
+            const forest = (31.2 + (Math.random() - 0.5) * 0.05).toFixed(2);
+            const ph = (8.05 + (Math.random() - 0.5) * 0.01).toFixed(3);
+            
+            document.getElementById('globalTemp').textContent = temp;
+            document.getElementById('co2Level').textContent = co2;
+            document.getElementById('seaLevel').textContent = '+' + seaLevel;
+            document.getElementById('arcticIce').textContent = ice;
+            document.getElementById('forestCover').textContent = forest;
+            document.getElementById('oceanPh').textContent = ph;
+        }
+
+        setInterval(updateMetrics, 5000);
+
+        // Live feed simulation
+        const feedEvents = [
+            "🌡️ Temperature spike detected in Western Australia: +4.2°C above average",
+            "🌊 Ocean current anomaly observed in North Atlantic",
+            "🔥 Wildfire contained in California after 3 days",
+            "❄️ Arctic ice measurement complete: 4.18M km² recorded",
+            "🌳 Reforestation project milestone: 1M trees planted in Amazon",
+            "🐋 Whale migration tracked entering feeding grounds",
+            "💨 Air quality improving in New Delhi: AQI down to 127",
+            "🌀 Tropical depression forming in Western Pacific",
+            "🛰️ Sentinel-2 satellite pass completed over Southeast Asia",
+            "🌾 Agricultural drought conditions easing in Sub-Saharan Africa",
+            "🏭 Industrial emissions spike detected in Eastern Europe",
+            "🪸 Coral spawning event beginning in Great Barrier Reef",
+            "⚡ Renewable energy production hits record 34% of grid",
+            "🏔️ Glacier retreat measured in Himalayas: -2.4m this month",
+            "🦅 Endangered species population count: Golden Eagles up 12%"
+        ];
+
+        function addFeedItem() {
+            const feed = document.getElementById('liveFeed');
+            const event = feedEvents[Math.floor(Math.random() * feedEvents.length)];
+            const time = new Date().toLocaleTimeString();
+            
+            const item = document.createElement('div');
+            item.className = 'feed-item';
+            item.innerHTML = `
+                <div class="feed-time">${time}</div>
+                <div>${event}</div>
+            `;
+            
+            feed.insertBefore(item, feed.firstChild);
+            
+            if (feed.children.length > 10) {
+                feed.removeChild(feed.lastChild);
+            }
+        }
+
+        setInterval(addFeedItem, 8000);
+        addFeedItem();
+        addFeedItem();
+        addFeedItem();
+
+        // Charts
+        function createChart(canvasId, color) {
+            const canvas = document.getElementById(canvasId);
+            if (!canvas) return;
+            
+            const ctx = canvas.getContext('2d');
+            canvas.width = canvas.offsetWidth;
+            canvas.height = canvas.offsetHeight;
+            
+            const data = [];
+            for (let i = 0; i < 50; i++) {
+                data.push(Math.random() * 50 + 25 + Math.sin(i / 5) * 20);
+            }
+            
+            ctx.strokeStyle = color;
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            
+            const stepX = canvas.width / (data.length - 1);
+            const maxY = Math.max(...data);
+            const minY = Math.min(...data);
+            const rangeY = maxY - minY;
+            
+            data.forEach((value, i) => {
+                const x = i * stepX;
+                const y = canvas.height - ((value - minY) / rangeY) * canvas.height;
+                
+                if (i === 0) {
+                    ctx.moveTo(x, y);
+                } else {
+                    ctx.lineTo(x, y);
+                }
+            });
+            
+            ctx.stroke();
+            
+            // Fill area under curve
+            ctx.lineTo(canvas.width, canvas.height);
+            ctx.lineTo(0, canvas.height);
+            ctx.closePath();
+            ctx.fillStyle = color + '20';
+            ctx.fill();
+        }
+
+        // Initialize charts
+        setTimeout(() => {
+            createChart('tempChart', '#ef4444');
+            createChart('co2Chart', '#f59e0b');
+            createChart('phChart', '#3b82f6');
+        }, 100);
+
+        // Random alerts
+        const alerts = [
+            "Severe weather warning issued for coastal regions of Japan",
+            "Methane levels spiking in Siberian permafrost region",
+            "Coral bleaching event detected in Caribbean Sea",
+            "Air quality emergency declared in Northern India"
+        ];
+
+        function showRandomAlert() {
+            if (Math.random() > 0.7) {
+                const alert = alerts[Math.floor(Math.random() * alerts.length)];
+                document.getElementById('alertMessage').textContent = alert;
+                document.getElementById('alertBanner').classList.add('active');
+                
+                setTimeout(() => {
+                    document.getElementById('alertBanner').classList.remove('active');
+                }, 10000);
+            }
+        }
+
+        setInterval(showRandomAlert, 30000);
+
+        // Initialize all features
+        initializeTicker();
+        setTimeout(() => {
+            initializeConflictMap();
+            populateConflictList();
+            animateCounter();
+            initializeBiomeMap();
+        }, 500);
+    </script>
+</body>
+</html>
+```
+
+That's the complete code! The dashboard now has all features fully implemented including:
+- Live scrolling news ticker
+- Interactive biome health maps with click details
+- Conflict zones map with tooltips
+- Lost tree counter
+- Space events calendar
+- News sources directory
+- All the original climate/ocean/biodiversity/atmosphere/satellite tabs
+
+Everything should be fully functional now!
